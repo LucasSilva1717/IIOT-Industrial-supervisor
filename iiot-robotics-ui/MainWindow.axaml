@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="400"
+        x:Class="CellSupervisor.MainWindow"
+        Title="Supervisório - Indústria 4.0"
+        Width="600" Height="400">
+    
+    <StackPanel Margin="20" Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Painel de Controle - Célula Robótica" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center"/>
+        
+        <!-- Caixa de Estado -->
+        <Border Background="#1e1e1e" Padding="20" CornerRadius="8" Width="500">
+            <TextBlock x:Name="StatusText" Text="A aguardar ligação Modbus..." FontSize="16" Foreground="White" HorizontalAlignment="Center"/>
+        </Border>
+        
+        <!-- Botão de Ação -->
+        <Button Content="Enviar Comando Start" Click="OnStartButtonClicked" Width="200" Height="45" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+    </StackPanel>
+</Window>

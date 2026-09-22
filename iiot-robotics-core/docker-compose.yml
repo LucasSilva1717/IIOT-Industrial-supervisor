@@ -1,0 +1,14 @@
+
+services:
+  ros2_dev:
+    build: .
+    container_name: iiot_ros2_container
+    volumes:
+      - .:/workspace
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    environment:
+      - DISPLAY=${DISPLAY}
+    network_mode: host
+    ipc: host
