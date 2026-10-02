@@ -3,6 +3,13 @@
 Arquitetura de supervisão industrial de ponta a ponta desenvolvida para integrar robótica, simulação em ambiente containerizado e uma interface gráfica (HMI) de alta performance via Modbus TCP.
 
 ---
+[![.NET](https://img.shields.io/badge/.NET-C%23%20%2F%2F%20.NET-512BD4?style=flat&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Avalonia UI](https://img.shields.io/badge/HMI-Avalonia%20UI-1A1A1A?style=flat&logo=avalonia&logoColor=white)](https://avaloniaui.net/)
+[![C++](https://img.shields.io/badge/Backend-C%2B%2B%2020-00599C?style=flat&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![ROS 2](https://img.shields.io/badge/Robotics-ROS%202%20Humble-22314E?style=flat&logo=ros&logoColor=white)](https://www.ros.org/)
+[![Docker](https://img.shields.io/badge/Container-Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Modbus](https://img.shields.io/badge/Protocol-Modbus%20TCP-FF6600?style=flat)](https://www.modbus.org/)
+---
 
 ## ⌨️ Visão Geral da Arquitetura
 
